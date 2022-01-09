@@ -31,13 +31,16 @@ References: [Details](https://cloud-computing-big-data.github.io/mlss.html) and 
 ## How to run
 Install all the required python libraries: numpy, pandas, tqdm, argparse, pyspark, sparknlp, sickit-learn, matplotlib.
 
-Run the following to install the spark nlp jars package<br/>
+Run the following to install the spark nlp jars package
+
 `wget https://repo1.maven.org/maven2/com/johnsnowlabs/nlp/spark-nlp_2.12/3.3.2/spark-nlp_2.12-3.3.2.jar -P $SPARK_HOME/jars`
 
-Run the python file which will send the data over tcp connection<br/>
+Run the python file which will send the data over tcp connection
+
 `python3 stream.py -f <dataset name> -b <batch size>`
 
-Execute spark fetch with spark submit<br/>
+Execute spark fetch with spark submit
+
 `$SPARK_HOME/bin/spark-submit spark_fetch.py 2>log.txt`
 
 ## Design Details:
