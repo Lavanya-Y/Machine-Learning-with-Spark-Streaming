@@ -1,12 +1,12 @@
 # Machine-Learning-with-Spark-Streaming
 
-Machine Learning with Spark is a project taken up as a part of the UE19CS322 Big Data course at PES University.
+Machine Learning with Spark is a project taken up as a part of the UE19CS322 Big Data course at PES University. This simulates a real world scenario where you will be required to handle an enormous amount of data for predictive modelling. The data source is a stream and your application faces the constraint of only being able to handle batches of a stream at any given point in time.
 
 PES UNIVERSITY - EC CAMPUS
 BIG DATA PROJECT
 Machine Learning with Spark Streaming
 
-## Team Member 
+## Team Members 
 
 Kale Pranav
 PES2UG19CS174
