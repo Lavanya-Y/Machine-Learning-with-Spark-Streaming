@@ -25,19 +25,19 @@ PES2UG19CS904
 <br/>
 **Description:** The dataset contains two files, train.csv and test.csv. It is about spam messages. It has 3 attributes: Subject, Message, Spam/Ham. 
 All 3 attributes are of string data type. Based on the Subject and Message, the message has to be classified as Spam or Ham.
-<br/>
+
 References: [Details](https://cloud-computing-big-data.github.io/mlss.html) and [Files](https://drive.google.com/drive/folders/1hKe06r4TYxqQOwEOUrk6i9e15Vt2EZGC)
 
-##How to run
+## How to run
 Install all the required python libraries: numpy, pandas, tqdm, argparse, pyspark, sparknlp, sickit-learn, matplotlib.
 
-Run the following to install the spark nlp jars package
+Run the following to install the spark nlp jars package<br/>
 `wget https://repo1.maven.org/maven2/com/johnsnowlabs/nlp/spark-nlp_2.12/3.3.2/spark-nlp_2.12-3.3.2.jar -P $SPARK_HOME/jars`
 
-Run the python file which will send the data over tcp connection
+Run the python file which will send the data over tcp connection<br/>
 `python3 stream.py -f <dataset name> -b <batch size>`
 
-Execute spark fetch with spark submit
+Execute spark fetch with spark submit<br/>
 `$SPARK_HOME/bin/spark-submit spark_fetch.py 2>log.txt`
 
 ## Design Details:
